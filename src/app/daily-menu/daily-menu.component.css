@@ -1,0 +1,29 @@
+* {
+  font-family: Helvetica;
+  font-size: 13px;
+}
+
+img {
+  width: 55px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 55px 250px;
+  grid-column-gap: 10px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

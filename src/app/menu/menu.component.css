@@ -4,14 +4,6 @@ ul {
   padding: 0;
   max-width: 1100px;
   margin: 0 auto;
-  /* display: grid; */
-  /* grid-auto-columns: min-content; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-  /* align-items: center;
-  justify-content: center; */
-  /* grid-auto-rows: auto; */
-  /* grid-template: 1fr 1fr; */
-  /* flex-direction: row; */
 }
 
 li {
