@@ -10,33 +10,34 @@ import { MenuItem } from '../models/menu.model';
 // export class MenuComponent implements OnInit {
 export class MenuComponent {
 
-  menu: MenuItem[] = [
-    new MenuItem("World" , "https://www.nytimes.com/section/world")
+  menu = [
+    new MenuItem("World" , "https://www.nytimes.com/section/world"),
+    new MenuItem("U.S." , "https://www.nytimes.com/section/us")
   ]
 
   // constructor(public name: string, public link: string) { }
 
 
-  world = "World"
-  worldLink = "https://www.nytimes.com/section/world"
-  us = "<li>U.S.</li>"
-  politics = "<li>Politics</li>"
-  ny = "<li>N.Y.</li>"
-  business = "<li>Business</li>"
-  opinion = "<li>Opinion</li>"
-  tech = "<li>Tech</li>"
-  science = "<li>Science</li>"
-  health = "<li>Health</li>"
-  sports = "<li>Sports</li>"
-  arts = "<li>Arts</li>"
-  books = "<li>Books</li>"
-  style = "<li>Style</li>"
-  food = "<li>Food</li>"
-  travel = "<li>Travel</li>"
-  magazine = "<li>Magazine</li>"
-  tmagazine = "<li>T magazine</li>"
-  realestate = "<li>Real Estate</li>"
-  video = "<li>Video</li>"
+  // world = "World"
+  // worldLink = "https://www.nytimes.com/section/world"
+  // us = "<li>U.S.</li>"
+  // politics = "<li>Politics</li>"
+  // ny = "<li>N.Y.</li>"
+  // business = "<li>Business</li>"
+  // opinion = "<li>Opinion</li>"
+  // tech = "<li>Tech</li>"
+  // science = "<li>Science</li>"
+  // health = "<li>Health</li>"
+  // sports = "<li>Sports</li>"
+  // arts = "<li>Arts</li>"
+  // books = "<li>Books</li>"
+  // style = "<li>Style</li>"
+  // food = "<li>Food</li>"
+  // travel = "<li>Travel</li>"
+  // magazine = "<li>Magazine</li>"
+  // tmagazine = "<li>T magazine</li>"
+  // realestate = "<li>Real Estate</li>"
+  // video = "<li>Video</li>"
 
 
   // ngOnInit() {

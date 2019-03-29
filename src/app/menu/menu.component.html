@@ -1,3 +1,13 @@
-<ol>
-<li><a href={{menu[0].link}}>{{menu[0].name}}</a></li>
-</ol>
+<ul *ngFor="let currentItem of menu">
+<li><a href={{currentItem.link}}>{{currentItem.name}}</a></li>
+</ul>
+
+
+
+<!-- <ul *ngFor="let currentKeg of childKegList">
+    <li>{{currentKeg.name}}</li>
+    <li>{{currentKeg.brand}}</li>
+    <li>{{currentKeg.price}}</li>
+    <li>{{currentKeg.ac}}</li>
+    <button (click)="editButtonClicked(currentKeg)">Edit</button>
+</ul> -->
