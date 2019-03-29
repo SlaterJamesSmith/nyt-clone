@@ -15,7 +15,7 @@ img {
 
 ul {
   display: grid;
-  grid-template-columns: 55px 235px;
+  grid-template-columns: 55px 18vw;
   grid-column-gap: 10px;
   padding-left: 0;
   margin-right: 15px;
@@ -37,8 +37,10 @@ li {
 
 h4 {
   margin: 0;
+  padding-right: 10px;
 }
 
 p {
   margin: 0;
+  padding-right: 10px;
 }
