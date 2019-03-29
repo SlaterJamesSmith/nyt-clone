@@ -2,7 +2,7 @@ ul {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
   padding: 0;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   /* display: grid; */
   /* grid-auto-columns: min-content; */
@@ -17,8 +17,20 @@ ul {
 li {
   display: flex;
   color: black;
-  padding: 4px;
-  font-size: 15px;
+  margin: 4px;
+  padding: 4px 2px;
+  font-size: 12px;
   text-align: center;
   justify-content: center;
+  border-radius: 5px;
+  font-family: Helvetica;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #F2F2F2;
 }
