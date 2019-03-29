@@ -9,8 +9,12 @@ img {
 
 ul {
   display: grid;
-  grid-template-columns: 55px 250px;
+  grid-template-columns: 55px 235px;
   grid-column-gap: 10px;
+}
+
+li:last-child {
+  border-right: 1px solid lightgrey;
 }
 
 li {
@@ -18,6 +22,7 @@ li {
   flex-direction: column;
   text-align: left;
   justify-content: center;
+  padding: 5px 0;
 }
 
 h4 {
