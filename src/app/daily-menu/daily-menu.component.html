@@ -1,9 +1,11 @@
-<div class="daily-menu">  
+<div class="daily-menu">
 <ul *ngFor="let currentItem of dailyMenu">
-  <li><img src="{{currentItem.thumbnail}}" alt="thumbnail image"></li>
-  <li>
-    <h4>{{currentItem.headline}}</h4>
-    <p>{{currentItem.blurb}}</p>
-  </li>
+  <div class="daily-link">
+    <li><img src="{{currentItem.thumbnail}}" alt="thumbnail image"></li>
+    <li>
+      <h4>{{currentItem.headline}}</h4>
+      <p>{{currentItem.blurb}}</p>
+    </li>
+  </div>
 </ul>
 </div>
