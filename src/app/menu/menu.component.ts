@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuItem } from '../models/menu.model';
+
 
 @Component({
   selector: 'app-menu',
@@ -8,12 +10,11 @@ import { Component, OnInit } from '@angular/core';
 // export class MenuComponent implements OnInit {
 export class MenuComponent {
 
-  constructor(public name: string, public link: string) { }
-  const Menu = [
-
-
-
+  menu: MenuItem[] = [
+    new MenuItem("World" , "https://www.nytimes.com/section/world")
   ]
+
+  // constructor(public name: string, public link: string) { }
 
 
   world = "World"
