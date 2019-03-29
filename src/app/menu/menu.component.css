@@ -1,7 +1,11 @@
+.menu-container {
+  border-top: 1px solid #F2F2F2;
+}
+
 ul {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  padding: 0;
+  padding: 0 60px;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -10,7 +14,7 @@ li {
   display: flex;
   color: black;
   margin: 4px;
-  padding: 4px 2px;
+  padding: 6px 2px;
   font-size: 12px;
   text-align: center;
   justify-content: center;
