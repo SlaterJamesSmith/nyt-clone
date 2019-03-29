@@ -6,11 +6,11 @@ import { DailyMenuItem } from '../models/dailymenu.model';
   templateUrl: './daily-menu.component.html',
   styleUrls: ['./daily-menu.component.css']
 })
-export class DailyMenuComponent implements OnInit {
+export class DailyMenuComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  // constructor() { }
+  //
+  // ngOnInit() {
+  // }
 
 }
