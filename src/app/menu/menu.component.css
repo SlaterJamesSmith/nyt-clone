@@ -24,6 +24,7 @@ li {
   justify-content: center;
   border-radius: 5px;
   font-family: Helvetica;
+  transition: 0.5s;
 }
 
 a {
