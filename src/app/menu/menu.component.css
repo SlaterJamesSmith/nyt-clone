@@ -1,7 +1,11 @@
 ul {
   display: grid;
-  grid-auto-columns: min-content;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  /* display: grid; */
+  /* grid-auto-columns: min-content; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  align-items: center;
+  justify-content: center;
   /* grid-auto-rows: auto; */
   /* grid-template: 1fr 1fr; */
   /* flex-direction: row; */
@@ -10,4 +14,8 @@ ul {
 li {
   display: flex;
   color: black;
+  padding: 4px;
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
 }
