@@ -12,32 +12,31 @@ export class MenuComponent {
 
   menu = [
     new MenuItem("World" , "https://www.nytimes.com/section/world"),
-    new MenuItem("U.S." , "https://www.nytimes.com/section/us")
+    new MenuItem("U.S." , "https://www.nytimes.com/section/us"),
+    new MenuItem("Politics" , "https://www.nytimes.com/section/politics"),
+    new MenuItem("N.Y." , "https://www.nytimes.com/section/ny"),
+    new MenuItem("Business" , "https://www.nytimes.com/section/business"),
+    new MenuItem("Opinion" , "https://www.nytimes.com/section/opinion"),
+    new MenuItem("Tech" , "https://www.nytimes.com/section/tech"),
+    new MenuItem("Science" , "https://www.nytimes.com/section/science"),
+    new MenuItem("Health" , "https://www.nytimes.com/section/health"),
+    new MenuItem("Sports" , "https://www.nytimes.com/section/sports"),
+    new MenuItem("Arts" , "https://www.nytimes.com/section/arts"),
+    new MenuItem("Books" , "https://www.nytimes.com/section/books"),
+    new MenuItem("Style" , "https://www.nytimes.com/section/style"),
+    new MenuItem("Food" , "https://www.nytimes.com/section/food"),
+    new MenuItem("Travel" , "https://www.nytimes.com/section/travel"),
+    new MenuItem("Magazine" , "https://www.nytimes.com/section/magazine"),
+    new MenuItem("T Magazine" , "https://www.nytimes.com/section/t-magazine"),
+    new MenuItem("Real Estate" , "https://www.nytimes.com/section/real-estate"),
+    new MenuItem("Video" , "https://www.nytimes.com/section/video")
   ]
 
   // constructor(public name: string, public link: string) { }
 
 
-  // world = "World"
-  // worldLink = "https://www.nytimes.com/section/world"
-  // us = "<li>U.S.</li>"
-  // politics = "<li>Politics</li>"
-  // ny = "<li>N.Y.</li>"
-  // business = "<li>Business</li>"
-  // opinion = "<li>Opinion</li>"
-  // tech = "<li>Tech</li>"
-  // science = "<li>Science</li>"
-  // health = "<li>Health</li>"
-  // sports = "<li>Sports</li>"
-  // arts = "<li>Arts</li>"
-  // books = "<li>Books</li>"
-  // style = "<li>Style</li>"
-  // food = "<li>Food</li>"
-  // travel = "<li>Travel</li>"
-  // magazine = "<li>Magazine</li>"
-  // tmagazine = "<li>T magazine</li>"
-  // realestate = "<li>Real Estate</li>"
-  // video = "<li>Video</li>"
+
+
 
 
   // ngOnInit() {
