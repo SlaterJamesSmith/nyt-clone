@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 // export class MenuComponent implements OnInit {
 export class MenuComponent {
-  world = "<li>World</li>"
+  world = "<li href='https://www.nytimes.com/section/world'>World</li>"
   us = "<li>U.S.</li>"
   politics = "<li>Politics</li>"
   ny = "<li>N.Y.</li>"
