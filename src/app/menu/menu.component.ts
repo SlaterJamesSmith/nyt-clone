@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 // export class MenuComponent implements OnInit {
 export class MenuComponent {
+
+  constructor(public name: string, public link: string) { }
+  const Menu = [
+
+
+
+  ]
+
+
   world = "World"
   worldLink = "https://www.nytimes.com/section/world"
   us = "<li>U.S.</li>"
@@ -28,7 +37,6 @@ export class MenuComponent {
   realestate = "<li>Real Estate</li>"
   video = "<li>Video</li>"
 
-  // constructor() { }
 
   // ngOnInit() {
   // }
