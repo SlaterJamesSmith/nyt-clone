@@ -1,7 +1,7 @@
-<ul>
-  <li><img src="{{dailyMenu[0].thumbnail}}" alt="thumbnail image"></li>
+<ul *ngFor="let currentItem of dailyMenu">
+  <li><img src="{{currentItem.thumbnail}}" alt="thumbnail image"></li>
   <li>
-    <h4>{{dailyMenu[0].headline}}</h4>
-    <p>{{dailyMenu[0].blurb}}</p>
+    <h4>{{currentItem.headline}}</h4>
+    <p>{{currentItem.blurb}}</p>
   </li>
 </ul>
