@@ -10,7 +10,7 @@ Design mimicking the New York Times homepage to practice front end development w
 #### Program behavior specifications:
 | Behavior | Input | Output |
 | --------------------------- | ------------------- | ------------------- |
-| If a user clicks on any menu link, and is redirected to an actual New York Times web page | User clicks on the word "Business" | User is sent to url at address "https://www.nytimes.com/section/business" |
+| If a user clicks on any menu link, they are redirected to an actual New York Times web page | User clicks on the word "Business" | User is sent to url at address "https://www.nytimes.com/section/business" |
 | Page is responsive; when viewport size changes, content rearranges to fit within the new viewport size | User changes browser width from 1500px to 800px | content rearranges in proportion to the new browser width |
 | Clickable elements are animated | User hovers cursor over article headline, picture, or article blurb | Article headline color changes from black to grey |
 
