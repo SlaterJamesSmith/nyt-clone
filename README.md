@@ -36,7 +36,7 @@ Design mimicking the New York Times homepage to practice front end development w
 
 ### Roadmap & bugs
 This application still needs work before it can be considered complete. It's functional on a basic level, but has the following issues:
-* Though functional, it only features two menus and very little content.
+* Though functional, it only features two menus and very little content. A complete version of this project will look and function like an exact or near-exact clone of the New York Times homepage.
 
 ### License
 
