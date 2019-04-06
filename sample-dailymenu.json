@@ -1,0 +1,20 @@
+{ "modules": [{
+    "headline": "Your Friday Evening Briefing",
+    "blurb": "Here's what you need to know at the end of the day.",
+    "thumbnail": "../../assets/images/evening.jpg",
+    "link": "https://www.nytimes.com/2019/03/29/briefing/mueller-report-brexit-ncaa.html",
+    "id": "1"
+  }, {
+    "headline": "Listen to 'Still Processing",
+    "blurb": "We dissect Jordan Peele's new psychological thriller",
+    "thumbnail": "../../assets/images/still-processing.jpg",
+    "link": "https://www.nytimes.com/2019/03/28/podcasts/still-processing-us-jordan-peele.html",
+    "id": "2"
+  }, {
+    "headline": "Listen to 'The Argument",
+    "blurb": "Opinion columnists debate: Who botched the Mueller report?",
+    "thumbnail": "../../assets/images/argument.png",
+    "link": "https://www.nytimes.com/2019/03/29/briefing/mueller-report-brexit-ncaa.html",
+    "id": "3"
+  }]
+}
