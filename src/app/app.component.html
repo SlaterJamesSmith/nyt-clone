@@ -6,6 +6,12 @@
   <app-menu></app-menu>
   <app-daily-menu></app-daily-menu>
 </div>
+
+<ul>
+  <li class="text" *ngFor="let item of items | async">
+    {{item.name}}
+  </li>
+</ul>
 <!-- <h2>Here are some links to help you start: </h2> -->
 <!-- <ul>
   <li>
