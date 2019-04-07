@@ -28,7 +28,7 @@ export const firebaseConfig = {
     DailyMenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
 // extra import from Angular/Firebase documentation
     AngularFireModule.initializeApp(environment.firebase, 'nyt-clone'), // imports firebase/app needed for everything
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
