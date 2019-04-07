@@ -9,6 +9,9 @@ import { DailyMenuComponent } from './daily-menu/daily-menu.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+// import { AngularFireAuthModule } from '@angular/fire/auth';
 
 // extra import from Angular/Firebase documentation
 import { environment } from '../environments/environment';
@@ -32,7 +35,7 @@ export const firebaseConfig = {
 // extra import from Angular/Firebase documentation
     AngularFireModule.initializeApp(environment.firebase, 'nyt-clone'), // imports firebase/app needed for everything
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
-    AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
+    // AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     AngularFireStorageModule // imports firebase/storage only needed for storage features
 // end
   ],
