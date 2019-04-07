@@ -13,7 +13,8 @@ import { DailymenuService } from '../dailymenu.service';
 export class DailyMenuComponent implements OnInit {
   dailyMenu: DailyMenuItem[];
 
-  constructor(public router: Router, private dailymenuService: DailymenuService) {}
+  // for some reason this works when the router is not part of the constructor, but does not otherwise
+  constructor(private router: Router, private dailymenuService: DailymenuService) {}
 
   ngOnInit(){
     this.dailyMenu = this.dailymenuService.getDailyMenu();
