@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 // import { MenuItem } from './models/menu.model';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
