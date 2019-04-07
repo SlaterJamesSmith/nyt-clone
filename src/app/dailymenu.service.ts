@@ -7,4 +7,8 @@ export class DailymenuService {
 
   constructor() { }
 
+  getDailyMenu() {
+    return DAILYMENU;
+  }
+
 }
