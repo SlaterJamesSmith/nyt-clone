@@ -5,9 +5,9 @@
 
 ### Description
 
-Design mimicking the New York Times homepage to practice front end development with Angular. This project is unfinished, currently only consisting of a few menu items built with Angular components utilizing model objects to store menu calls to images, links, and text. This project is in progress; it's current UI specifications include responsiveness to viewport width and animated clickable content.
+Web application designed to mimic the New York Times homepage. Built as a practice project for front end development with Angular, building services, and project deployment in Firebase. This project's UI currently only consists of a few menu items built with Angular components utilizing model objects and Firebase to store menu calls to images, links, and text. This project will be updated for the purpose of ongoing coding practice by the creator, as its only current UI user specifications include responsiveness to viewport width and animated clickable content. Its current back end specification include services to transfer custom API data from Firebase, as well as Firebase deployment.
 
-#### Program behavior specifications:
+#### Program UI behavior specifications:
 | Behavior | Input | Output |
 | --------------------------- | ------------------- | ------------------- |
 | If a user clicks on any menu link, they are redirected to an actual New York Times web page | User clicks on the word "Business" | User is sent to url at address "https://www.nytimes.com/section/business" |
@@ -19,8 +19,11 @@ Design mimicking the New York Times homepage to practice front end development w
 
 * Angular
 * npm & Node
+* Firebase data storage & live url deployment
 
 ### Setup Instructions
+
+To view this project live through Firebase, visit https://nyt-clone-67b7e.firebaseapp.com/ , otherwise follow the steps listed below to clone and view through a 'localhost' server:
 
 1. Clone this repository to your desktop at https://github.com/SlaterJamesSmith/nyt-clone
 2. Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
@@ -37,37 +40,11 @@ Design mimicking the New York Times homepage to practice front end development w
 ### Roadmap & bugs
 This application still needs work before it can be considered complete. It's functional on a basic level, but has the following issues:
 * Though functional, it only features two menus and very little content. A complete version of this project will look and function like an exact or near-exact clone of the New York Times homepage.
+* A final version of this project will also utilize additional Firebase databases to store more information about articles
+* A final version of this project will store images in firebase instead of links to images stored locally
+* A final version of this project will successfully call weather API data to display current weather, mimicking the actual New York Times homepage
 
 ### License
 
 *This software is licensed under the MIT license*
 Copyright (c) 2019 **_Slater Smith_**
-
-
-<!-- # AngularProject
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md). -->
