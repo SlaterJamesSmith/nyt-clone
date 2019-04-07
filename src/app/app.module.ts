@@ -26,10 +26,10 @@ export const firebaseConfig = {
     DailyMenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
