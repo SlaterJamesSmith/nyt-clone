@@ -1,5 +1,5 @@
 <div class="daily-menu">
-<ul *ngFor="let currentItem of dailyMenu">
+<ul *ngFor="let currentItem of dailyMenu | async">
   <div class="daily-link">
     <li><a href="{{currentItem.link}}"><img src="{{currentItem.thumbnail}}" alt="thumbnail image"></a></li>
     <li>
